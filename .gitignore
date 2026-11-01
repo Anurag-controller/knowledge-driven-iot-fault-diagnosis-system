@@ -18,7 +18,6 @@ lib/
 lib64/
 parts/
 sdist/
-var/
 wheels/
 *.egg-info/
 .installed.cfg
@@ -43,10 +42,11 @@ htmlcov/
 # Logs & DBs
 *.log
 data/sqlite/*.db
+data/sqlite/*.db-wal
+data/sqlite/*.db-shm
 !data/sqlite/.gitkeep
 data/csv/*.csv
 !data/csv/.gitkeep
-
 
 # Private ESP32 credentials
 /Final_ARD_Code/secrets.h
@@ -59,3 +59,4 @@ data/csv/*.csv
 .venv-old-link
 /data/node_red/*.jsonl
 /node_red_flow.json
+screenshots/
